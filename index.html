@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+
+<div>
+Средний балл:
+<span id="result"></span>
+</div>
+<label for="name">
+Введите Имя
+<input type="text" id="name" name="name">
+</label>
+<br>
+<label for="surname">
+Введите Фамилию
+<input type="text" id="surname" name="surname">
+</label>
+<br>
+<label for="age">
+Введите Возраст
+<input type="text" id="age" name="age">
+</label>
+<br>
+<label for="average">
+Введите Средний Балл
+<input type="text" id="average" name="average">
+</label>
+<br>
+<button onclick="pushFunction()">Add elements</button>
+<br>
+<label for="del">
+Введите строку которую удалить
+<input type="text" id="del" name="del">
+</label>
+<button onclick="deleteRow()">Delete row</button>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="stud.js"></script>
+</body>
+</html>
